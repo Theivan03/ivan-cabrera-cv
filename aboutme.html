@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre mí | Ivan Cabrera</title>
+    <!-- Vincular al CSS principal para consistencia -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .services-box {
+            flex: 1 1 calc(20% - 2rem);
+            min-width: 250px;
+            background: var(--second-bg-color);
+            padding: 2rem;
+            border-radius: 1rem;
+            text-align: center;
+            transition: 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .services-box h3 {
+            margin-bottom: 1rem;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .tech-stack li {
+            background: var(--second-bg-color);
+            color: var(--text-color);
+            padding: 1rem 2rem;
+            border-radius: 1rem;
+            list-style: none;
+            min-width: 120px;
+            text-align: center;
+            font-size: 1.4rem;
+            transition: 0.3s ease;
+        }
+
+        .tech-stack li:hover {
+            background: var(--main-color);
+            color: var(--second-bg-color);
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        .about-content,
+        .about-img {
+            margin: 0;
+            padding: 0;
+        }
+
+        .footer {
+            margin-top: auto;
+            padding-top: 2rem;
+            background: var(--second-bg-color);
+        }
+
+        #about {
+            margin-bottom: 0;
+        }
+
+        #highlights {
+            background: var(--second-bg-color) !important;
+            text-align: center;
+        }
+
+        #highlights .heading {
+            margin-top: 15rem;
+            margin-bottom: 10rem;
+            /* Espaciado entre el título y las cajas */
+        }
+
+        .about {
+            background: var(--bg-color);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Sección de encabezado -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="index.html" data-lang="es">Inicio</a>
+            <a href="index.html#about" data-lang="es" class="active">Sobre mí</a>
+            <a href="index.html#services" data-lang="es">Mi progreso</a>
+            <a href="index.html#portfolio" data-lang="es">Portfolio</a>
+            <a href="index.html#contact" data-lang="es">Contacto</a>
+        </nav>
+    </header>
+    <header class="header2">
+        <img src="images/spain.png" class="imagenesbanderas" alt="Bandera de España" onclick="changeLanguage('es')" />
+        <img src="images/united-kingdom.png" class="imagenesbanderas" alt="Bandera del Reino Unido"
+            onclick="changeLanguage('en')" />
+    </header>
+
+    <!-- Sección de "Sobre mí" -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/Ivan.png" alt="Foto de Jose Luis Botella" />
+        </div>
+        <div class="about-content">
+            <h2 class="heading">Sobre <span>Mí</span></h2>
+            <h3>Desarrollador de aplicaciones!</h3>
+            <p> Soy un programador de 21 años de Teulada Moraira (Alicante, España)
+                que actualmente vive en Elche con una gran pasión por la tecnología y el desarrollo de software. Tengo
+                el Título Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) y Desarrollo de Aplicaciones Web
+                (DAW). </p>
+            <p>
+                <strong>¿Mi objetivo?</strong> Seguir aprendiendo, destacar y llegar
+                lejos en el mundo de la programación. Me encanta colaborar en equipo y
+                enfrentar nuevos retos que me permitan crecer profesional y
+                personalmente. ¡Siempre busco aportar ideas y soluciones creativas!
+            </p>
+            <a href="index.html#contact" class="btn" style="text-align: center">Contactar conmigo</a>
+        </div>
+    </section>
+
+    <!-- Sección de características destacadas -->
+    <section class="highlights" id="highlights">
+        <h2 class="heading caracteristicas">
+            <i class="bx bxs-paint"></i> Mis <span> características</span>
+        </h2>
+        <div class="services-container">
+            <div class="services-box">
+                <h3>🚀 Proactividad</h3>
+                <p>Me motiva aprender y mejorar constantemente.</p>
+            </div>
+            <div class="services-box">
+                <h3>💼 Trabajo en equipo</h3>
+                <p>Disfruto colaborar y compartir conocimientos.</p>
+            </div>
+            <div class="services-box">
+                <h3>🎯 Determinación</h3>
+                <p>Estoy comprometido en lograr mis metas y superar expectativas.</p>
+            </div>
+            <div class="services-box">
+                <h3>🧠 Creatividad</h3>
+                <p>
+                    Me gusta pensar fuera de la caja y encontrar soluciones innovadoras
+                    a los problemas.
+                </p>
+            </div>
+            <div class="services-box">
+                <h3>🌍 Adaptabilidad</h3>
+                <p>
+                    Me adapto rápidamente a nuevos entornos y disfruto el desafío de
+                    aprender nuevas tecnologías.
+                </p>
+            </div>
+            <div class="services-box">
+                <h3>📊 Análisis</h3>
+                <p>
+                    Disfruto analizar datos y procesos para optimizar y mejorar la
+                    eficiencia en mis proyectos.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Tech Stack -->
+    <section class="services" id="tech-stack">
+        <h2 class="heading">💻 <span>Tech Stack</span></h2>
+        <p style="font-size: 17px; padding: 80px; text-align: center">
+            Estas son algunas de las tecnologías y herramientas con las que trabajo.
+        </p>
+        <ul class="tech-stack">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Bootstrap</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>.Net</li>
+            <li>Angular</li>
+            <li>React Native</li>
+            <li>NodeJS</li>
+            <li>MySQL</li>
+            <li>Postgre SQL</li>
+            <li>Django</li>
+            <li>Spring Boot</li>
+            <li>AWS</li>
+            <li>GitHub</li>
+        </ul>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Hecho en &copy; 2024 por Ivan Cabrera Reig</p>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
