@@ -1,0 +1,87 @@
+{
+    "title": "Responsive Personal Portfolio Website Design | Codehal",
+    "header": {
+        "logo": "Portfolio",
+        "nav": {
+            "home": "Inicio",
+            "about": "Sobre mí",
+            "services": "Mi progreso",
+            "portfolio": "Portfolio",
+            "contact": "Contacto"
+        }
+    },
+    "home": {
+        "greeting": "Hola, soy",
+        "profession": "Soy",
+        "description": "Desarrollo aplicaciones web y multimedia, tanto para frontend como backend.",
+        "download_cv": "Descargar CV",
+        "multiple_text": [
+            "&nbsp;Desarrollador Full-Stack",
+            "&nbsp;Desarrollador de Aplicaciones",
+            "&nbsp;Desarrollador Backend"
+        ]
+    },
+    "about": {
+        "heading": "Sobre Mí",
+        "title": "Desarrollador de aplicaciones!",
+        "description": "En búsqueda de conocimiento y desarrollo profesional, me gusta aprender por mi cuenta nuevas tecnologías que puedan ayudar a mejorar mis proyectos.",
+        "read_more": "Leer más"
+    },
+    "services": {
+        "cualidades": "Mis Cualidades",
+        "heading": "Mi Progreso",
+        "web_developer": {
+            "title": "Desarrollador de Aplicaciones Web",
+            "description": "Graduado en grado superior de Desarrollo de Aplicaciones Web (DAW).",
+            "read_more": "Leer Más"
+        },
+        "multiplatform_developer": {
+            "title": "Desarrollador de Aplicaciones Multiplataforma",
+            "description": "Graduado en grado superior de Desarrollo de Aplicaciones Multiplataforma (DAM).",
+            "read_more": "Leer Más"
+        },
+        "work_experience": {
+            "title": "Mi experiencia laboral...",
+            "description": "Programador en Teralco (Convotis Iberia)<br/>Programador en Yobo Studio<br/>Y mucho más...",
+            "read_more": "Leer Más"
+        },
+        "current_activities": {
+            "title": "Actualmente... ¿Qué estoy haciendo?",
+            "description": "Actualmente, soy profesor de programación en la plataforma Superprof, además de desempeñar un trabajo temporal y continuar formándome de manera autodidacta.",
+            "read_more": "Leer Más"
+        }
+    },
+    "portfolio": {
+        "heading": "Últimos Proyectos",
+        "projects": [
+            {
+                "title": "BodyCraft",
+                "description": "Android Studio & Springboot"
+            },
+            {
+                "title": "Gestión de contadores Enercoop",
+                "description": "Python-Django & React-Vite"
+            },
+            {
+                "title": "Filmoteca",
+                "description": "Android Studio"
+            },
+            {
+                "title": "BodyCraft web (En Construcción)",
+                "description": "Futura aplicación web basada en la aplicación móvil ya creada"
+            }
+        ]
+    },
+    "contact": {
+        "heading": "Contacta conmigo!",
+        "full_name": "Nombre Completo",
+        "email": "Dirección de Correo",
+        "phone": "Número de Teléfono",
+        "subject": "Asunto",
+        "message": "Tu mensaje",
+        "send_message": "Mandar Mensaje"
+    },
+    "footer": {
+        "made_by": "Hecho en © por Ivan Cabrera Reig"
+    }
+}

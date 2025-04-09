@@ -1,0 +1,87 @@
+{
+    "title": "Responsive Personal Portfolio Website Design | Codehal",
+    "header": {
+        "logo": "Portfolio",
+        "nav": {
+            "home": "Home",
+            "about": "About Me",
+            "services": "My Progress",
+            "portfolio": "Portfolio",
+            "contact": "Contact"
+        }
+    },
+    "home": {
+        "greeting": "Hello, I am",
+        "profession": "I am",
+        "description": "I develop Web and Multimedia applications, both for frontend and backend.",
+        "download_cv": "Download CV",
+        "multiple_text": [
+            "&nbsp;Full-Stack Developer",
+            "&nbsp;Application Developer",
+            "&nbsp;Backend Developer"
+        ]
+    },
+    "about": {
+        "heading": "About Me",
+        "title": "Application Developer!",
+        "description": "In search of knowledge and professional development, I enjoy self-learning new technologies that can help improve my projects.",
+        "read_more": "Read more"
+    },
+    "services": {
+        "cualidades": "My Qualities",
+        "heading": "My Progress",
+        "web_developer": {
+            "title": "Web Application Developer",
+            "description": "Graduated with a higher degree in Web Application Development (DAW).",
+            "read_more": "Read More"
+        },
+        "multiplatform_developer": {
+            "title": "Multiplatform Application Developer",
+            "description": "Graduated with a higher degree in Multiplatform Application Development (DAM).",
+            "read_more": "Read More"
+        },
+        "work_experience": {
+            "title": "My work experience...",
+            "description": "Programmer at Teralco (Convotis Iberia)<br/>Programmer at Yobo Studio<br/>And much more...",
+            "read_more": "Read More"
+        },
+        "current_activities": {
+            "title": "Currently... What am I doing?",
+            "description": "Currently, I am a programming teacher on the Superprof platform, in addition to having a temporary job and continuing to train myself as a self-learner.",
+            "read_more": "Read More"
+        }
+    },
+    "portfolio": {
+        "heading": "Latest Projects",
+        "projects": [
+            {
+                "title": "BodyCraft",
+                "description": "Android Studio & Springboot"
+            },
+            {
+                "title": "Enercoop Counter Management",
+                "description": "Python-Django & React-Vite"
+            },
+            {
+                "title": "Filmoteca",
+                "description": "Android Studio"
+            },
+            {
+                "title": "BodyCraft web (Under Construction)",
+                "description": "Future web application based on the already created mobile application"
+            }
+        ]
+    },
+    "contact": {
+        "heading": "Contact Me!",
+        "full_name": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "subject": "Subject",
+        "message": "Your Message",
+        "send_message": "Send Message"
+    },
+    "footer": {
+        "made_by": "Made in © by Ivan Cabrera Reig"
+    }
+}

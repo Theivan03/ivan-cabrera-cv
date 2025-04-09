@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-lang="title">Responsive Personal Portfolio Website Design | Codehal</title>
+
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- header design -->
+  <header class="header">
+    <a href="#" class="logo" id="logo" data-lang="header.logo">Portfolio</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="index.html#home" data-lang="header.nav.home" class="lang-toggle">Inicio</a>
+      <a href="aboutme.html" data-lang="header.nav.about" class="lang-toggle">Sobre mi</a>
+      <a href="index.html#services" data-lang="header.nav.services" class="lang-toggle">Mi progreso</a>
+      <a href="index.html#portfolio" data-lang="header.nav.portfolio" class="lang-toggle">Portfolio</a>
+      <a href="index.html#contact" data-lang="header.nav.contact" class="lang-toggle">Contacto</a>
+    </nav>
+  </header>
+
+  <header class="header2">
+    <img src="images/spain.png" class="imagenesbanderas" alt="Bandera de España" onclick="changeLanguage('es')">
+    <img src="images/united-kingdom.png" class="imagenesbanderas" alt="Bandera del Reino Unido"
+      onclick="changeLanguage('en')">
+  </header>
+
+  <!-- home section design -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3 data-lang="home.greeting" class="lang-toggle">Hola, soy</h3>
+      <h1>Ivan Cabrera</h1>
+      <h3 data-lang="home.profession" class="lang-toggle">Soy <span class="multiple-text"></span></h3>
+
+      <p data-lang="home.description" class="lang-toggle">Desarrollo aplicaciones Web y Multimedia, tanto para frontend
+        como backend</p>
+      <div class="social-media">
+        <a href="https://www.instagram.com/ivancabrerareig/"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="https://www.linkedin.com/in/ivan-cabrera-reig-5a496a250/"><i class='bx bxl-linkedin'></i></a>
+      </div>
+      <a href="https://drive.google.com/file/d/1Rvkk-7fURy5kq4qr2Fk42raMliSH2QDM/view?usp=drive_link" target="_blank"
+        rel="noopener noreferrer" class="btn lang-toggle" data-lang="home.download_cv">Descargar CV</a>
+    </div>
+    <div class="home-img">
+      <img src="images/i.webp" alt="">
+    </div>
+  </section>
+
+  <!-- about section design -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/IVAN.webp" alt="">
+    </div>
+
+    <div class="about-content">
+      <h2 data-lang="about.heading" class="heading lang-toggle">Sobre <span>Mi</span></h2>
+      <h3 data-lang="about.title" class="lang-toggle">Desarrollador de aplicaciones!</h3>
+      <p data-lang="about.description" class="lang-toggle">En búsqueda de conocimiento, desarrollo profesional, me gusta
+        aprender por mi cuenta nuevas tecnologías que puedan ayudar a mejorar mis proyectos.</p>
+      <a href="aboutme.html" class="btn lang-toggle" data-lang="about.read_more">Leer más</a>
+    </div>
+  </section>
+
+  <!-- services section design -->
+  <section class="services" id="services">
+    <h2 class="heading lang-toggle" data-lang="services.heading">Mi <span>Progreso</span></h2>
+
+    <div class="services-container">
+      <div class="services-box">
+        <i class='bx bx-code-alt'></i>
+        <h3 data-lang="services.web_developer.title" class="lang-toggle">Desarrollador de Aplicaciones Web</h3>
+        <p data-lang="services.web_developer.description" class="lang-toggle">Graduado en grado superior de Desarrollo
+          de Aplicaciones Web (DAW)</p>
+        <a href="daw.html" class="btn lang-toggle" data-lang="services.web_developer.read_more">Leer Más</a>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bx-code-alt'></i>
+        <h3 data-lang="services.multiplatform_developer.title" class="lang-toggle">Desarrollador de Aplicaciones
+          Multiplataforma</h3>
+        <p data-lang="services.multiplatform_developer.description" class="lang-toggle">Graduado en grado superior de
+          Desarrollo de Aplicaciones Multiplataforma (DAM)</p>
+        <a href="dam.html" class="btn lang-toggle" data-lang="services.multiplatform_developer.read_more">Leer Más</a>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bx-bar-chart-alt'></i>
+        <h3 data-lang="services.work_experience.title" class="lang-toggle">Mi experiencia laboral...</h3>
+        <p data-lang="services.work_experience.description" class="lang-toggle">Programador en Teralco(Convotis
+          Iberia)<br />Programador en Yobo Studio<br />Y mucho más...</p>
+        <a href="dam.html" class="btn lang-toggle" data-lang="services.work_experience.read_more">Leer Más</a>
+      </div>
+
+      <div class="services-box full-width">
+        <i class='bx bxs-paint'></i>
+        <h3 data-lang="services.current_activities.title" class="lang-toggle">Actualmente... ¿Qué estoy haciendo?</h3>
+        <p data-lang="services.current_activities.description" class="lang-toggle">Actualmente, soy profesor de
+          programación en la plataforma Superprof, además de desempeñar un trabajo temporal y continuar formándome de
+          manera autodidacta</p>
+        <a href="dam.html" class="btn lang-toggle" data-lang="services.current_activities.read_more">Leer Más</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio section design -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading lang-toggle" data-lang="portfolio.heading">Últimos <span>Proyectos</span></h2>
+
+    <div class="image-stack">
+      <img src="images/rutasmoteras.webp" alt="Ruta 1">
+      <img src="images/Taulaapp.png" alt="Ruta 2">
+      <img src="images/TaulaWeb.png" alt="Ruta 3">
+    </div>
+  </section>
+
+  <!-- contact section design -->
+  <section class="contact" id="contact">
+    <h2 class="heading lang-toggle" data-lang="contact.heading">Contacta <span>conmigo!</span></h2>
+
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Nombre Completo" data-placeholder="contact.full_name" class="lang-toggle">
+        <input type="email" placeholder="Dirección de Correo" data-placeholder="contact.email" class="lang-toggle">
+      </div>
+
+      <div class="input-box">
+        <input type="number" placeholder="Número de Teléfono" data-placeholder="contact.phone" class="lang-toggle">
+        <input type="text" placeholder="Asunto" data-placeholder="contact.subject" class="lang-toggle">
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje" data-placeholder="contact.message"
+        class="lang-toggle"></textarea>
+      <input type="submit" value="Mandar Mensaje" class="btn lang-toggle" data-lang="contact.send_message">
+    </form>
+  </section>
+
+  <!-- footer design -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Hecho en &copy; <span id="year"></span> por Ivan Cabrera Reig</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- custom js -->
+  <script src="js/script.js" defer></script>
+</body>
+
+</html>
